@@ -1,4 +1,4 @@
 {"image":"mcr.microsoft.com/devcontainers/universal:2",
-"updateContentCommand": "docker pull ghcr.io/sytone/obsidian-remote:latest",
-"postStartCommand": "docker run -d -v D:/workspaces/:/vaults -v D:/workspaces/.config:/config -p 8080:8080 ghcr.io/sytone/obsidian-remote:latest",
+"updateContentCommand": "docker pull sytone/obsidian-remote:latest",
+"postStartCommand": "docker run -d -v /workspaces/:/vaults -v /workspaces/.config:/config -p 8080:8080 sytone/obsidian-remote:latest",
 "forwardPorts": [8080]}
